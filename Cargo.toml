@@ -1,0 +1,10 @@
+[package]
+name = "rust-logging-test"
+version = "0.1.0"
+authors = ["richard <richard.bradley@joyent.com>"]
+edition = "2018"
+
+[dependencies]
+slog = { version = "2.4.1", features = [ "max_level_trace" ] }
+slog-bunyan = "2.1.0"
+clap = "2.32"
